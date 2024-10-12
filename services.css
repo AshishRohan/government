@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background */
+}
+
+h1, h2 {
+    color: #333; /* Dark text for headings */
+}
+
+/* Header Styles */
+header {
+    background:orangered; /* Teal for the header */
+    color: white;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white; /* White text in the nav bar */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffbf69; /* Light orange hover effect */
+}
+/* Logo Placeholder */
+.logo-placeholder {
+    width: 150px;  /* Adjust the width as needed */
+    height: 180px;  /* Adjust the height as needed */
+    background-color: #eaeaea;  /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Image */
+.logo img {
+    width: 150px;  /* Set the logo width */
+    height: auto;  /* Maintain aspect ratio */
+}
+/* Footer */
+footer {
+    background: orangered; /* Teal background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0%;
+}
+/* Services Section */
+.services, .news, .about, .virtual-tour, .contact {
+    padding: 50px 50px;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    margin: 10px;
+    background: #cbf3f0; /* Soft mint background for service cards */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service-card i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ff9f1c; /* Orange icons */
+}
+
+.service-card img, .news-item img, .about img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}

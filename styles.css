@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background */
+}
+
+h1, h2 {
+    color: #333; /* Dark text for headings */
+}
+
+/* Header Styles */
+header {
+    background: orangered; /* Teal for the header */
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* White text in the nav bar */
+    text-decoration: underline;
+    position: relative;
+    gap: 25px;
+}
+
+nav ul li a:hover {
+    color: #ffbf69; /* Light orange hover effect */
+}
+
+/* Hero Section */
+.hero {
+    background: url('') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-style: oblique;
+}
+
+.hero-content {
+    max-width: 1000px;
+    margin: auto;
+    font: bold;
+}
+
+.cta-btn {
+    background: #ff9f1c; /* Bright orange for CTA buttons */
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.cta-btn:hover {
+    background: #ffbf69; /* Light orange hover */
+}
+
+/* Services Section */
+.services, .news, .about, .virtual-tour, .contact {
+    padding: 50px 50px;
+    text-align: center;
+    background-color: #ffffff; /* White background */
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    margin: 10px;
+    background: #cbf3f0; /* Soft mint background for service cards */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service-card i {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ff9f1c; /* Orange icons */
+}
+
+.service-card img, .news-item img, .about img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* News Section */
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    width: 45%;
+    margin: 10px;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    color: #055311; /* Teal for news titles */
+}
+
+/* About Us Section */
+.about img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Contact Form */
+.contact form input, .contact form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #2ec4b6; /* Teal border */
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #065b3a; /* Orange for submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #ffbf69; /* Light orange hover for button */
+}
+
+/* Footer */
+footer {
+    background: orangered; /* Teal background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logo Placeholder */
+.logo-placeholder {
+    width: 150px;  /* Adjust the width as needed */
+    height: 80px;  /* Adjust the height as needed */
+    background-color: #eaeaea;  /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Image */
+.logo img {
+    width: 150px;  /* Set the logo width */
+    height: auto;  /* Maintain aspect ratio */
+}
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Close Button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Sign-In Form Styles */
+#signInForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#signInForm input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#signInForm button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#signInForm button:hover {
+    background-color: #0056b3;
+}
